@@ -40,13 +40,13 @@ nebulaImage.onclick = () => {
         const authorText = "Raysastrophotograhy";
         const licenceHref = "https://creativecommons.org/licenses/by-sa/4.0/deed.en";
         const licenceText = "cc-by-sa/4.0";
-        setImage(src2, imageHref, imageHref, authorHref, authorText, licenceHref, licenceText);
+        setImage(src2, imageHref, "Wikipedia", authorHref, authorText, licenceHref, licenceText);
     } else {
         const imageHref = "https://upload.wikimedia.org/wikipedia/commons/b/bc/Rosetta_NGC_2237_Ferretti-Bruzzone_Nit.jpg";
         const authorHref = "https://commons.wikimedia.org/w/index.php?title=User:Arorangi-Rangi&action=edit&redlink=1";
         const authorText = "Antonio Ferretti & Attilio Bruzzone";
         const licenceHref = "https://creativecommons.org/licenses/by-sa/4.0/deed.en";
         const licenceText = "cc-by-sa/4.0";
-        setImage(src1, imageHref, imageHref, authorHref, authorText, licenceHref, licenceText);
+        setImage(src1, imageHref, "Wikipedia", authorHref, authorText, licenceHref, licenceText);
     }
 };
